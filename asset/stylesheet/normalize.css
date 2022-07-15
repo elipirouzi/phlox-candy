@@ -1,0 +1,25 @@
+*, *::before, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a,a:visited{
+    color: inherit;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+main, header, section, div, article, footer, aside, nav, figure{
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+    font-size: 100%;
+    font-family: 'Quicksand', sans-serif;
+}
+h1,h3{
+    font-family: 'Pacifico', cursive;
+}
